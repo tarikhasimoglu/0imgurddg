@@ -17,8 +17,8 @@ chrome.webRequest.onBeforeRequest.addListener(
     },
     {
         urls: [
-            "*://*.imgur.com/*",
-            "*://www.imgur.com/*"],
+            "http://*.imgur.com/*",
+            "https://www.imgur.com/*"],
         types: ["main_frame", "sub_frame", "stylesheet", "script", "image", "object", "xmlhttprequest", "other"]
     },
     ["blocking"]

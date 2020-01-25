@@ -10,8 +10,8 @@
         "persistent": true
     },
     "permissions": [
-        "http://*/",
-        "https://*/",
+        "http://*.imgur.com/",
+        "https://www.imgur.com/,",
         "webRequest",
         "webRequestBlocking"
     ],
