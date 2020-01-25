@@ -1,0 +1,4 @@
+*.pem
+*.crx
+.vscode
+node_modules/

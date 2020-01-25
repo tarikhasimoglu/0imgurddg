@@ -1,0 +1,25 @@
+{
+    "name": "0IMGUR & DDG Redirector (Dedicated to ZOZO)",
+    "version": "1.0",
+    "description": "Redirects imgur.com to 0imgur.com and replaces all imgur IMAGE links on reddit and stackoverflow etc. with duckduckgo links.",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "permissions": [
+        "http://*/",
+        "https://*/",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "icons": {
+        "16": "images/imgur16.png",
+        "32": "images/imgur32.png",
+        "48": "images/imgur48.png",
+        "128": "images/imgur128.png"
+    },
+    "browser_action": {}
+}
