@@ -11,7 +11,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     return { redirectUrl: newUrl };
   },
   {
-    urls: ["http://*.imgur.com/*", "https://www.imgur.com/*"],
+    urls: ["http://*.imgur.com/*", "https://*.imgur.com/*"],
     types: [
       "main_frame",
       "sub_frame",

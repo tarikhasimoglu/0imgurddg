@@ -11,7 +11,7 @@
     },
     "permissions": [
         "http://*.imgur.com/",
-        "https://www.imgur.com/,",
+        "https://*.imgur.com/,",
         "webRequest",
         "webRequestBlocking"
     ],
