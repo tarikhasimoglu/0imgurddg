@@ -1,5 +1,5 @@
 {
-    "name": "0IMGUR & DDG Redirector (Dedicated to ZOZO)",
+    "name": "0IMGUR & DDG Redirector",
     "version": "1.0",
     "description": "Redirects imgur.com to 0imgur.com and replaces all imgur IMAGE links on reddit and stackoverflow etc. with duckduckgo links.",
     "manifest_version": 2,
